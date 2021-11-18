@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import list from './data.json';
 import './App.css';
 
 /**
@@ -8,6 +9,7 @@ import './App.css';
  * @constructor
  */
 function App() {
+  console.log(list);
   return (
     <div className="App">
       <header className="App-header">
